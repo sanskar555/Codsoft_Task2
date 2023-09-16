@@ -1,0 +1,222 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(252, 245, 245);
+}
+.section{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.color-overlay{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.367);
+    top: 0;
+    left: 0;
+}
+.section h1{
+    z-index: 2;
+    font-family: cursive;
+    font-size: 120px;
+    padding-left: 5%;
+    font-weight: 800;
+    color: #fff;
+}
+video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.flexbox{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+}
+.sec1{
+    background-image: url(img/Goa.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.sec2{
+    background-image: url(img/Kashmir.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.sec3{
+    background-image: url(img/manali.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.sec4{
+    background-image: url(img/kany.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin: 5%;
+    display: flex;
+}
+.left{
+    width: 60%;
+    padding: 5%;
+}
+.left h2{
+    font-size: 45px;
+    margin-top: 8%;
+    font-family: sans-serif;
+}
+.right{
+    width: 40%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.services{
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    font-family: sans-serif;
+}
+.sec{
+    padding: 2%;
+    margin: 1.5%;
+    width: 100%;
+    background: rgb(243, 239, 239);
+    border: #111 solid 1.5px;
+}
+.head{
+    text-align: center;
+}
+li, tr, td, th{
+    font-size: 18px;
+    line-height: 34px;
+}
+tr, td, th{
+    text-align: center;
+}
+.name{
+    font-size: 75px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+}
+.cost{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 15%;
+    opacity: 0;
+}
+.days{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    opacity: 0;
+}
+.book{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 5px;
+    border: #fff 2.5px solid;
+    width: 40%;
+    margin-left: 30%;
+    opacity: 0;
+}
+.card{
+    height: 65.5%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.418);
+    padding-top: 40%;
+    opacity: 0;
+}
+.sec1:hover .card, .book, .cost, .name, .days{
+    opacity: 1;
+    transition: 1s;
+}
+.sec2:hover .card, .book, .cost, .name, .days{
+    opacity: 1;
+    transition: 1s;
+}
+.sec3:hover .card,.book, .cost, .name, .days{
+    opacity: 1;
+    transition: 1s;
+}
+.sec4:hover .card, .book, .cost, .name, .days{
+    opacity: 1;
+    transition: 1s;
+}
+.booking{
+    height: 70vh;
+    text-align: center;
+    padding-top: 10%;
+    background: url(img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: block;
+}
+.head4{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 90px;
+}
+.button{
+    margin-top: 10%;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 5px;
+    border: #fff 2.5px solid;
+    width: 10%;
+    margin-left: 45%;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    margin: 5%;
+    background: #fff;
+    border-radius: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: url(img/back.jpg); 
+}
+input[type=text], input[type=email], input[type=password], input[type=date], input[type=file], textarea, select, option{
+    width: 60%;
+    font-size: 24px;
+}
